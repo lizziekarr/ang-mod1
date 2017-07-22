@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coursera Module 1</title>
+    <link href = 'styles.css' rel = 'stylesheet'>
+    <script src="angular.min.js"></script>
+    <script src="./app.js"></script>
+
+  </head>
+  <body ng-app='LunchCheck'>
+    <h1>Lunch Check</h1>
+    <div ng-controller = 'LunchCheckController'>
+      What do you usually eat for lunch?  Enter each item separated by a comma:
+      <br>
+      <br>
+      <input type="text" ng-model='lunch'>
+      <br>
+      <br>
+      <button type="button" ng-click = 'check()'>Check if too much</button>
+      {{message}}
+    </div>
+  </body>
+</html>
