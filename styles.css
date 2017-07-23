@@ -1,1 +1,16 @@
+h4 {
 
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.green {
+  border: solid green 1px;
+}
+
+.red {
+  border: solid red 1px;
+}
